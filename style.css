@@ -1,0 +1,137 @@
+body {margin: 0px;
+background-color: #D3D3D3;}
+
+.banner {
+	background-image: linear-gradient(89deg, rgb(0 0 0 / 51%) 38%, rgb(0 0 0 / 42%) 84%), url("banner.jpg");
+	height:70vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+}
+
+img {
+	height: 300px;
+	border-radius: 7px;
+}
+.banner h1 {
+	color: #F09491;
+	font-family: 'New Tegomin';
+	font-size: 200px;
+	margin: 0;
+}
+
+.banner h2 { 
+	color: #5E7E29;
+	font-family: 'Amatic SC';
+	font-size: 50px; 
+}
+
+ .btn-blue {
+  color: white;
+  text-decoration: none;
+  background-color: #F09491;
+  padding: 14px;
+  border-radius: 7px;
+  font-family: 'American Typewriter';
+  display: block;
+  width: 8%;
+  margin: 16px auto;
+  text-align: center;
+}
+.title {
+	color: #F09491;
+	font-family: 'New Tegomin';
+	font-size: 40px;
+	text-align: center;
+}
+
+.cards h3 {
+	color: #5E7E29;
+	font-family: 'Amatic SC';
+	font-size: 25px;
+	text-align: center;
+}
+.cards p {
+	font-family: 'Academy Engraved LET';
+	color: #F09491;
+}
+
+.cards img {
+	align-content: center
+}
+
+.page-header {
+	background-image: linear-gradient(89deg, rgb(0 0 0 / 51%) 38%, rgb(0 0 0 / 42%) 84%), url("banner2.jpg");
+	height:50vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+}
+
+.page-header h1 {
+	color: #F09491;
+	font-family: 'Amatic SC';
+	font-size: 135px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+
+}
+.card {
+	background-color: white;
+	width: 300px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 7px;
+	width: 135;
+	margin: 0 auto;
+}
+.card2 p {
+font-family: 'Academy Engraved LET';
+	color: #F09491;	
+}
+
+.cards2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+.card2 {
+	background-color: white;
+	width: 1200px;
+	padding: 20;
+	border-radius: 7px;	
+	height: 230px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 85px;
+}
+
+.footer {
+	background-color: #5E7E29;
+	color: white;
+	text-align: center;
+	padding: 24px 0px;
+	width: :135;
+	margin-top: 85px;
+}
+.btn-blue2 {
+  color: white;
+  text-decoration: none;
+  background-color: #D3D3D3;
+  padding: 14px;
+  border-radius: 7px;
+  font-family: 'American Typewriter';
+  display: block;
+  width: 8%;
+  margin: 16px auto;
+  text-align: center;
+}
+
+
